@@ -229,9 +229,39 @@ h4 {
 }
 
 #contact button {
-  margin-top: 10pxfz;
+  margin-top: 10px;
   cursor: pointer;
   width: 40%;
+}
+
+/* Footer */
+footer {
+  padding: 20px 30px;
+  background-color: #14153D;
+  background-image: url(/assets/footer_image.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+footer .copyright {
+  grid-column: 1/3;
+  font-size: 0.8em;
+}
+
+footer .social {
+  grid-column: 7/9;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 30px;
+}
+
+footer .social li {
+  margin: 0 9px;
+}
+
+footer i {
+  width: 20px;
 }
 
 /* Small tablet styles */
